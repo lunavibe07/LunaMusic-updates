@@ -4,9 +4,9 @@ Official Android update downloads for LunaMusic Mobile and TV.
 
 [Latest release](https://github.com/lunavibe07/LunaMusic-updates/releases/latest)
 
-**0.3.11:** [Mobile APK](https://github.com/lunavibe07/LunaMusic-updates/releases/download/v0.3.11/LunaMusic-0.3.11-mobile-debug.apk) | [TV APK](https://github.com/lunavibe07/LunaMusic-updates/releases/download/v0.3.11/LunaMusic-0.3.11-tv-debug.apk)
+**0.3.12:** [Mobile APK](https://github.com/lunavibe07/LunaMusic-updates/releases/download/v0.3.12/LunaMusic-0.3.12-mobile-debug.apk) | [TV APK](https://github.com/lunavibe07/LunaMusic-updates/releases/download/v0.3.12/LunaMusic-0.3.12-tv-debug.apk)
 
-Version 0.3.11 removes the Music assistant and restores direct voice search on Mobile and TV. Playback, offline downloads, queues, TV pairing and app updates are retained. Voice recognition depends on the device speech provider; keyboard search remains available.
+Version 0.3.12 improves storage migration and conservative unused-download cleanup, reclaims installed update APK caches, uses a static update feed with retry backoff, and interrupts stalled TV transfers. Playback, offline downloads, queues, direct voice search and TV pairing are retained.
 
 - Mobile APK: touch interface for phones/tablets.
 - TV APK: landscape interface with D-pad navigation.
