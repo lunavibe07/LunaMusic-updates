@@ -1,6 +1,6 @@
 # Release source references
 
-The public LunaMusic-updates releases provide the application source ZIP for each APK build, retained notices and the pinned youtubedl-android source archive. The main development repository remains private. The application source ZIP includes the Gradle wrapper, dependency versions, Android source, resources and build instructions. Signing keys, local tools and private task notes are excluded.
+The public LunaMusic-updates releases provide the application source ZIP for each APK build, retained notices and references to the pinned youtubedl-android source archive. The main development repository remains private. The application source ZIP includes the Gradle wrapper, dependency versions, Android source, resources and build instructions. Signing keys, local tools and private task notes are excluded.
 
 ## youtubedl-android 0.18.1
 

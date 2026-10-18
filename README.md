@@ -4,6 +4,10 @@ Official Android update downloads for LunaMusic Mobile and TV.
 
 [Latest release](https://github.com/lunavibe07/LunaMusic-updates/releases/latest)
 
+**0.3.10:** [Mobile APK](https://github.com/lunavibe07/LunaMusic-updates/releases/download/v0.3.10/LunaMusic-0.3.10-mobile-debug.apk) | [TV APK](https://github.com/lunavibe07/LunaMusic-updates/releases/download/v0.3.10/LunaMusic-0.3.10-tv-debug.apk)
+
+Music assistant is available from the microphone/Assistant button and options menu. Type a Vietnamese/English command, or select Speak and review the result before Run. Control playback, search/play music and open Mobile-to-TV controls. No bundled AI model or paid AI API; speech depends on the device provider and may use Internet.
+
 - Mobile APK: touch interface for phones/tablets.
 - TV APK: landscape interface with D-pad navigation.
 - Each APK includes ARM64, ARM32 and x86_64. Install as an update, keeping the existing app/data.
