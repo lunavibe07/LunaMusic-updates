@@ -4,20 +4,18 @@ Official Android update downloads for LunaMusic Mobile and TV.
 
 [Latest release](https://github.com/lunavibe07/LunaMusic-updates/releases/latest)
 
-**0.3.12:** [Mobile APK](https://github.com/lunavibe07/LunaMusic-updates/releases/download/v0.3.12/LunaMusic-0.3.12-mobile-debug.apk) | [TV APK](https://github.com/lunavibe07/LunaMusic-updates/releases/download/v0.3.12/LunaMusic-0.3.12-tv-debug.apk)
+**0.3.14:** [Mobile APK](https://github.com/lunavibe07/LunaMusic-updates/releases/download/v0.3.14/LunaMusic-0.3.14-mobile-debug.apk) | [TV APK](https://github.com/lunavibe07/LunaMusic-updates/releases/download/v0.3.14/LunaMusic-0.3.14-tv-debug.apk)
 
-Version 0.3.12 improves storage migration and conservative unused-download cleanup, reclaims installed update APK caches, uses a static update feed with retry backoff, and interrupts stalled TV transfers. Playback, offline downloads, queues, direct voice search and TV pairing are retained.
+Version 0.3.14 (versionCode 17) adds English/Vietnamese language selection, three illustrated themes, a YouTube-only Mobile drawer and a larger launcher logo. Both APKs are signed with the existing certificate and install over 0.3.13 while preserving app data.
 
-## Changes in 0.3.12
+## Changes in 0.3.14
 
-- **Less update storage:** opening the updated app removes cached APKs already installed and abandoned update partials, while preserving newer APKs awaiting installation.
-- **Fewer GitHub API requests:** update checks use a public static feed with caching and retry backoff, retaining APK verification.
-- **Safer download cleanup:** **Clean unused downloads** is available in both options menus and also runs after successful downloads. Only recognized completed files without library references are eligible; playing queues, active transfers/exports, resumable partials and unknown files are protected. Unreadable metadata stops cleanup.
-- **Safer library migration:** compare full file contents and preserve conflicting originals; bound library/history metadata reads.
-- **Stalled TV transfer handling:** stop uploads after 30 seconds without progress or 30 minutes in total. File exports respond to cancellation between chunks and clean only their own incomplete output.
-- **Updated Android libraries:** retain Android 8+ and ARM64/ARM32/x86_64 support. The Music assistant remains removed; direct voice search remains available.
+- Select English or Vietnamese on Mobile and TV.
+- Choose Synthwave Neon, Forest Night or Rose Quartz theme artwork.
+- Navigate Mobile with a YouTube-only drawer and quick navigation bar.
+- See the enlarged LunaMusic launcher logo.
 
-Both editions passed APK builds/lint and 112 unit tests each. Three update-feed tests and six Android storage integration tests passed. Both LDPlayer editions downloaded, verified and installed the public 0.3.12 update over 0.3.11; installed update caches were reclaimed. Physical TV transfer stalls and provider-specific export failures remain unverified.
+Both editions passed APK assembly and lint plus 112 unit tests each. All 3 update-feed tests passed. Both editions installed and opened on LDPlayer 07/05. The APK checksums and the shared signing identity are included/verified in the release assets.
 
 ## Choose and install
 

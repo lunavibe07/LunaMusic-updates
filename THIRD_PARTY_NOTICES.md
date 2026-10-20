@@ -13,6 +13,7 @@ The MIT grant applies only to material whose copyright holder can grant it. It d
 | youtubedl-android `library`, `common` and `ffmpeg` modules, version 0.18.1 | Their Maven POMs declare GPL-3.0. Preserve [the existing GPL notice](THIRD_PARTY_youtubedl.txt) and applicable upstream notices/source obligations. |
 | AndroidX / Media3 | Apache-2.0; retain the licenses/notices supplied by the dependencies. |
 | Kotlin / kotlinx.coroutines | Apache-2.0; retain the licenses/notices supplied by the dependencies. |
+| TV voice-search vector (`ic_voice_search_tv.xml`) | Adapted from Android Open Source Project `ic_voice_search_api_material.xml`; Apache-2.0. See the [upstream asset](https://android.googlesource.com/platform/prebuilts/fullsdk/platforms/+/ebc1d6b10b525942ef842b1def3e6dcbc7766e9f/android-35/data/res/drawable/ic_voice_search_api_material.xml). |
 | Bundled yt-dlp zipapp, Python runtime, FFmpeg and their embedded components | Retain their upstream component licenses and notices. The MIT license of the app does not relicense these binaries or their contents. |
 | Third-party or supplied artwork | Retains its applicable copyright and permissions unless its owner separately grants a license. |
 
