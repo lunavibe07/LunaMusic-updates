@@ -1,20 +1,20 @@
 {
-  "tag_name": "v0.3.12",
+  "tag_name": "v0.3.13",
   "draft": false,
   "prerelease": false,
   "assets": [
     {
-      "name": "LunaMusic-0.3.12-mobile-debug.apk",
-      "browser_download_url": "https://github.com/lunavibe07/LunaMusic-updates/releases/download/v0.3.12/LunaMusic-0.3.12-mobile-debug.apk",
-      "digest": "sha256:31253d41bcf5adcc80a8f9b7af72868bb239eeec40429501937cf3966fc6827a",
-      "size": 162195892,
+      "name": "LunaMusic-0.3.13-mobile-debug.apk",
+      "browser_download_url": "https://github.com/lunavibe07/LunaMusic-updates/releases/download/v0.3.13/LunaMusic-0.3.13-mobile-debug.apk",
+      "digest": "sha256:4ed7642bafd79076acb140c5a0a4fbf74012796dfceaddf93d489752f1737c59",
+      "size": 162196669,
       "state": "uploaded"
     },
     {
-      "name": "LunaMusic-0.3.12-tv-debug.apk",
-      "browser_download_url": "https://github.com/lunavibe07/LunaMusic-updates/releases/download/v0.3.12/LunaMusic-0.3.12-tv-debug.apk",
-      "digest": "sha256:c54d31861cf8b13bdac53413bb27b90a74da9dfcd5ccd8215f86a708e2d06a76",
-      "size": 162195648,
+      "name": "LunaMusic-0.3.13-tv-debug.apk",
+      "browser_download_url": "https://github.com/lunavibe07/LunaMusic-updates/releases/download/v0.3.13/LunaMusic-0.3.13-tv-debug.apk",
+      "digest": "sha256:34266f3cf0d0ac00091409eacf90f1402fe369ab84a8797837073a7cf4d619f2",
+      "size": 162196389,
       "state": "uploaded"
     }
   ]
